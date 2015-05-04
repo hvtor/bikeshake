@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    //
 
     
     self.locationManager = [[CLLocationManager alloc] init];
@@ -30,15 +28,19 @@
     }
     [self.locationManager startUpdatingLocation];
 
-
     self.mapView = [[MKMapView alloc]initWithFrame:self.view.frame];
     
     self.mapView.showsUserLocation = YES;
     self.mapView.showsPointsOfInterest = YES;
     self.mapView.delegate = self;
-    
-    [self.view addSubview:self.mapView];
 
+    [self.view addSubview:self.mapView];
+    
+}
+
+-(void)setCenterCoordinate:(CLLocationCoordinate2D)coordinate
+                  animated:(BOOL)animated {
+    
 }
 
 - (void)didReceiveMemoryWarning {

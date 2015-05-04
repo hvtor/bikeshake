@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>NSLocationWhenInUseUsageDescription</string>
+	<string>Hey! Just want to use your location to get you to a BikeShareDepot.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>NSLocationAlwaysUsageDescription</string>
+	<string>When you&apos;re biking and in a rush, I want to find the closest BikeShareDepot ASAP.</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>

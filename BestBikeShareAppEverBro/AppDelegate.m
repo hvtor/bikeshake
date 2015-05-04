@@ -26,7 +26,7 @@
     
     favoritesCollectionViewController.title = @"Favorites";
     
-    MapViewController *mapViewController = [[MapViewController alloc]init];
+    UITabBarController *mapViewController = [[UITabBarController alloc]init];
     mapViewController.view.backgroundColor = [UIColor blueColor];
     bikeShareViewController.view.backgroundColor = [UIColor redColor];
 
