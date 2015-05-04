@@ -19,6 +19,7 @@
 		E93EABDC1AF7E8520099F731 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93EABDB1AF7E8520099F731 /* MapKit.framework */; };
 		E93EABDF1AF7F7B90099F731 /* BikeShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABDE1AF7F7B90099F731 /* BikeShareViewController.m */; };
 		E93EABE21AF7F9830099F731 /* FavoritesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABE11AF7F9830099F731 /* FavoritesCollectionViewController.m */; };
+		E93EABE51AF8037A0099F731 /* UserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABE41AF8037A0099F731 /* UserLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		E93EABDE1AF7F7B90099F731 /* BikeShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeShareViewController.m; sourceTree = "<group>"; };
 		E93EABE01AF7F9830099F731 /* FavoritesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesCollectionViewController.h; sourceTree = "<group>"; };
 		E93EABE11AF7F9830099F731 /* FavoritesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesCollectionViewController.m; sourceTree = "<group>"; };
+		E93EABE31AF8037A0099F731 /* UserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocation.h; sourceTree = "<group>"; };
+		E93EABE41AF8037A0099F731 /* UserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +147,18 @@
 				E93EABDE1AF7F7B90099F731 /* BikeShareViewController.m */,
 				E93EABE01AF7F9830099F731 /* FavoritesCollectionViewController.h */,
 				E93EABE11AF7F9830099F731 /* FavoritesCollectionViewController.m */,
+				E93EABE61AF803890099F731 /* Model */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E93EABE61AF803890099F731 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E93EABE31AF8037A0099F731 /* UserLocation.h */,
+				E93EABE41AF8037A0099F731 /* UserLocation.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			files = (
 				E93EABB51AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld in Sources */,
 				E93EABB21AF7E7C00099F731 /* AppDelegate.m in Sources */,
+				E93EABE51AF8037A0099F731 /* UserLocation.m in Sources */,
 				E93EABD71AF7E8020099F731 /* MapViewController.m in Sources */,
 				E93EABAF1AF7E7C00099F731 /* main.m in Sources */,
 				E93EABE21AF7F9830099F731 /* FavoritesCollectionViewController.m in Sources */,

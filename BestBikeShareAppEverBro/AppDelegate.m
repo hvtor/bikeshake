@@ -28,7 +28,7 @@
     
     UITabBarController *mapViewController = [[UITabBarController alloc]init];
     mapViewController.view.backgroundColor = [UIColor blueColor];
-    mapViewController.view.backgroundColor = [UIColor redColor];
+    bikeShareViewController.view.backgroundColor = [UIColor redColor];
 
     
     [mapViewController setViewControllers:@[bikeShareViewController, favoritesCollectionViewController]];
