@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BikeShareViewController.h
 //  BestBikeShareAppEverBro
 //
 //  Created by Hemant V. Torsekar on 2015-05-04.
 //  Copyright (c) 2015 Hemant V. Torsekar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MapViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface BikeShareViewController : MapViewController
 
 @end
-

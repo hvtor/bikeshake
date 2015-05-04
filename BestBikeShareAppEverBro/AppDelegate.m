@@ -17,6 +17,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    BikeShareViewController *bikeShareViewController = [[BikeShareViewController alloc] init];
+    bikeShareViewController.title = @"BikeShare";
+    
+    FavoritesCollectionViewController *favoritesCollectionViewController = [[FavoritesCollectionViewController alloc] init];
+    
+    favoritesCollectionViewController.title = @"Favorites";
+    
+    UITabBarController *mapViewController = [[UITabBarController alloc]init];
+    mapViewController.view.backgroundColor = [UIColor blueColor];
+    mapViewController.view.backgroundColor = [UIColor redColor];
+
+    
+    [mapViewController setViewControllers:@[bikeShareViewController, favoritesCollectionViewController]];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.rootViewController = mapViewController
+    ;
+
     return YES;
 }
 

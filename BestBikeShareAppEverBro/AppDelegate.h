@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <MapKit/MapKit.h>
+#import "BikeShareViewController.h"
+#import "FavoritesCollectionViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

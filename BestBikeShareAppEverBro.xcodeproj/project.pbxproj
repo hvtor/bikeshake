@@ -10,11 +10,15 @@
 		E93EABAF1AF7E7C00099F731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABAE1AF7E7C00099F731 /* main.m */; };
 		E93EABB21AF7E7C00099F731 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABB11AF7E7C00099F731 /* AppDelegate.m */; };
 		E93EABB51AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E93EABB31AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld */; };
-		E93EABB81AF7E7C00099F731 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABB71AF7E7C00099F731 /* ViewController.m */; };
 		E93EABBB1AF7E7C00099F731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93EABB91AF7E7C00099F731 /* Main.storyboard */; };
 		E93EABBD1AF7E7C00099F731 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93EABBC1AF7E7C00099F731 /* Images.xcassets */; };
 		E93EABC01AF7E7C00099F731 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E93EABBE1AF7E7C00099F731 /* LaunchScreen.xib */; };
 		E93EABCC1AF7E7C00099F731 /* BestBikeShareAppEverBroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABCB1AF7E7C00099F731 /* BestBikeShareAppEverBroTests.m */; };
+		E93EABD71AF7E8020099F731 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABD61AF7E8020099F731 /* MapViewController.m */; };
+		E93EABDA1AF7E84A0099F731 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93EABD91AF7E84A0099F731 /* CoreLocation.framework */; };
+		E93EABDC1AF7E8520099F731 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93EABDB1AF7E8520099F731 /* MapKit.framework */; };
+		E93EABDF1AF7F7B90099F731 /* BikeShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABDE1AF7F7B90099F731 /* BikeShareViewController.m */; };
+		E93EABE21AF7F9830099F731 /* FavoritesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABE11AF7F9830099F731 /* FavoritesCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,20 @@
 		E93EABB01AF7E7C00099F731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E93EABB11AF7E7C00099F731 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E93EABB41AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BestBikeShareAppEverBro.xcdatamodel; sourceTree = "<group>"; };
-		E93EABB61AF7E7C00099F731 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E93EABB71AF7E7C00099F731 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E93EABBA1AF7E7C00099F731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E93EABBC1AF7E7C00099F731 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E93EABBF1AF7E7C00099F731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E93EABC51AF7E7C00099F731 /* BestBikeShareAppEverBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestBikeShareAppEverBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93EABCA1AF7E7C00099F731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93EABCB1AF7E7C00099F731 /* BestBikeShareAppEverBroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestBikeShareAppEverBroTests.m; sourceTree = "<group>"; };
+		E93EABD51AF7E8020099F731 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E93EABD61AF7E8020099F731 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E93EABD91AF7E84A0099F731 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E93EABDB1AF7E8520099F731 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E93EABDD1AF7F7B90099F731 /* BikeShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeShareViewController.h; sourceTree = "<group>"; };
+		E93EABDE1AF7F7B90099F731 /* BikeShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeShareViewController.m; sourceTree = "<group>"; };
+		E93EABE01AF7F9830099F731 /* FavoritesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesCollectionViewController.h; sourceTree = "<group>"; };
+		E93EABE11AF7F9830099F731 /* FavoritesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93EABDC1AF7E8520099F731 /* MapKit.framework in Frameworks */,
+				E93EABDA1AF7E84A0099F731 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +77,9 @@
 		E93EABA01AF7E7C00099F731 = {
 			isa = PBXGroup;
 			children = (
+				E93EABDB1AF7E8520099F731 /* MapKit.framework */,
+				E93EABD91AF7E84A0099F731 /* CoreLocation.framework */,
+				E93EABD81AF7E8120099F731 /* Controllers */,
 				E93EABAB1AF7E7C00099F731 /* BestBikeShareAppEverBro */,
 				E93EABC81AF7E7C00099F731 /* BestBikeShareAppEverBroTests */,
 				E93EABAA1AF7E7C00099F731 /* Products */,
@@ -85,8 +100,6 @@
 			children = (
 				E93EABB01AF7E7C00099F731 /* AppDelegate.h */,
 				E93EABB11AF7E7C00099F731 /* AppDelegate.m */,
-				E93EABB61AF7E7C00099F731 /* ViewController.h */,
-				E93EABB71AF7E7C00099F731 /* ViewController.m */,
 				E93EABB91AF7E7C00099F731 /* Main.storyboard */,
 				E93EABBC1AF7E7C00099F731 /* Images.xcassets */,
 				E93EABBE1AF7E7C00099F731 /* LaunchScreen.xib */,
@@ -120,6 +133,19 @@
 				E93EABCA1AF7E7C00099F731 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E93EABD81AF7E8120099F731 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E93EABD51AF7E8020099F731 /* MapViewController.h */,
+				E93EABD61AF7E8020099F731 /* MapViewController.m */,
+				E93EABDD1AF7F7B90099F731 /* BikeShareViewController.h */,
+				E93EABDE1AF7F7B90099F731 /* BikeShareViewController.m */,
+				E93EABE01AF7F9830099F731 /* FavoritesCollectionViewController.h */,
+				E93EABE11AF7F9830099F731 /* FavoritesCollectionViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +250,10 @@
 			files = (
 				E93EABB51AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld in Sources */,
 				E93EABB21AF7E7C00099F731 /* AppDelegate.m in Sources */,
-				E93EABB81AF7E7C00099F731 /* ViewController.m in Sources */,
+				E93EABD71AF7E8020099F731 /* MapViewController.m in Sources */,
 				E93EABAF1AF7E7C00099F731 /* main.m in Sources */,
+				E93EABE21AF7F9830099F731 /* FavoritesCollectionViewController.m in Sources */,
+				E93EABDF1AF7F7B90099F731 /* BikeShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
