@@ -10,4 +10,7 @@
 
 @interface UserLocation : MKUserLocation
 
+//@property (strong, nonatomic) userLatitude;
+//@property (strong, nonatomic) userLongitude;
+
 @end

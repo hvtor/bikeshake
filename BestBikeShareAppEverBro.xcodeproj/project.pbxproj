@@ -10,7 +10,6 @@
 		E93EABAF1AF7E7C00099F731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABAE1AF7E7C00099F731 /* main.m */; };
 		E93EABB21AF7E7C00099F731 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABB11AF7E7C00099F731 /* AppDelegate.m */; };
 		E93EABB51AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E93EABB31AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld */; };
-		E93EABBB1AF7E7C00099F731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93EABB91AF7E7C00099F731 /* Main.storyboard */; };
 		E93EABBD1AF7E7C00099F731 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93EABBC1AF7E7C00099F731 /* Images.xcassets */; };
 		E93EABC01AF7E7C00099F731 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E93EABBE1AF7E7C00099F731 /* LaunchScreen.xib */; };
 		E93EABCC1AF7E7C00099F731 /* BestBikeShareAppEverBroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EABCB1AF7E7C00099F731 /* BestBikeShareAppEverBroTests.m */; };
@@ -39,7 +38,6 @@
 		E93EABB01AF7E7C00099F731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E93EABB11AF7E7C00099F731 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E93EABB41AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BestBikeShareAppEverBro.xcdatamodel; sourceTree = "<group>"; };
-		E93EABBA1AF7E7C00099F731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E93EABBC1AF7E7C00099F731 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E93EABBF1AF7E7C00099F731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E93EABC51AF7E7C00099F731 /* BestBikeShareAppEverBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestBikeShareAppEverBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +101,6 @@
 			children = (
 				E93EABB01AF7E7C00099F731 /* AppDelegate.h */,
 				E93EABB11AF7E7C00099F731 /* AppDelegate.m */,
-				E93EABB91AF7E7C00099F731 /* Main.storyboard */,
 				E93EABBC1AF7E7C00099F731 /* Images.xcassets */,
 				E93EABBE1AF7E7C00099F731 /* LaunchScreen.xib */,
 				E93EABB31AF7E7C00099F731 /* BestBikeShareAppEverBro.xcdatamodeld */,
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93EABBB1AF7E7C00099F731 /* Main.storyboard in Resources */,
 				E93EABC01AF7E7C00099F731 /* LaunchScreen.xib in Resources */,
 				E93EABBD1AF7E7C00099F731 /* Images.xcassets in Resources */,
 			);
@@ -290,14 +286,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E93EABB91AF7E7C00099F731 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E93EABBA1AF7E7C00099F731 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E93EABBE1AF7E7C00099F731 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
